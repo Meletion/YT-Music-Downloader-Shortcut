@@ -24,23 +24,23 @@ jobs:
           cache: false
 
       - name: Build Windows
-        run: GOOS=windows GOARCH=amd64 go build -o YDMS-Windows.exe YMDS.go
+        run: GOOS=windows GOARCH=amd64 go build -o YMDS-Windows.exe YMDS.go
 
       - name: Build Linux
-        run: GOOS=linux GOARCH=amd64 go build -o YDMS-Linux YMDS.go
+        run: GOOS=linux GOARCH=amd64 go build -o YMDS-Linux YMDS.go
 
       - name: Build MacOS (Intel)
-        run: GOOS=darwin GOARCH=amd64 go build -o YDMS-MacOS-Intel YMDS.go
+        run: GOOS=darwin GOARCH=amd64 go build -o YMDS-MacOS-Intel YMDS.go
 
       - name: Build MacOS (Apple Silicon)
-        run: GOOS=darwin GOARCH=arm64 go build -o YDMS-MacOS-AppleSilicon YMDS.go
+        run: GOOS=darwin GOARCH=arm64 go build -o YMDS-MacOS-AppleSilicon YMDS.go
 
       - name: Upload to release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            YDMS-Windows.exe
-            YDMS-Linux
-            YDMS-MacOS-Intel
-            YDMS-MacOS-AppleSilicon
+            YMDS-Windows.exe
+            YMDS-Linux
+            YMDS-MacOS-Intel
+            YMDS-MacOS-AppleSilicon
             YMDS.user.js
