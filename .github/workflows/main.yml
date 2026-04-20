@@ -43,4 +43,4 @@ jobs:
             YDMS-Linux
             YDMS-MacOS-Intel
             YDMS-MacOS-AppleSilicon
-            YMDS-Userscript.js
+            YMDS.user.js
