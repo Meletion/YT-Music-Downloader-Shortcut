@@ -6,6 +6,8 @@
 // @author       Meletion
 // @match        https://www.youtube.com/watch?v=*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @updateURL    https://github.com/Meletion/YT-Music-Downloader-Shortcut/releases/latest/download/YMDS.user.js
+// @downloadURL  https://github.com/Meletion/YT-Music-Downloader-Shortcut/releases/latest/download/YMDS.user.js
 // @grant        none
 // ==/UserScript==
 (function () {
