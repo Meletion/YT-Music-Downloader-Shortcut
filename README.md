@@ -6,7 +6,7 @@ This userscript + golang app combo let you download music by pressing Shift + D 
 ## How to use
 1. Drop the built golang app into your music folder, or any other folder.
 2. Install the included userscript from the repo
-3. Go to youtube, click Shift + F
+3. Go to youtube, click Shift + D
 Congrats! You now have that song inside of the folder you put the golang app. Enjoy!
 
 
