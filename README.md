@@ -1,5 +1,5 @@
 # Youtube Music Downloader Shortcut, or YMDS.
-This userscript + golang app combo let you download music by pressing Shift + D on your keyboard, when on YT music, or YT.
+This userscript + golang app combo lets you download music by pressing Shift + D on your keyboard, when on YT music, or YT.
 
 ## Requirements:
 - YT-DLP
